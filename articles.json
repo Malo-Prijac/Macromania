@@ -1,0 +1,296 @@
+{
+    "FPS":{
+        "battlefield": {
+            "nom":"Battlefield 1",
+            "img":"../images/bf1.jpg",
+            "prix":"60",
+            "quantite":"7",
+            "note":"4"
+        },
+
+        "Doom": {
+            "nom":"Doom eternal",
+            "img":"../images/doom.jpg",
+            "prix":"60",
+            "quantite":"6",
+            "note":"5"
+        },
+
+        "Farcry4": {
+            "nom":"Far Cry 4",
+            "img":"../images/farcry4.jpg",
+            "prix":"40",
+            "quantite":"4",
+            "note":"5"
+        },
+
+        "ModernWarfare": {
+            "nom":"Modern Warfare",
+            "img":"../images/mw.jpg",
+            "prix":"60",
+            "quantite":"9",
+            "note":"4"
+        },
+
+        "titanfall": {
+            "nom":"Titanfall",
+            "img":"../images/titanfall.jpg",
+            "prix":"50",
+            "quantite":"10",
+            "note":"3"
+        }
+    },
+
+    "RPG":{
+
+        "Isaac": {
+            "nom":"Binding Of Isaac",
+            "img":"../images/isaac.jpg",
+            "prix":"30",
+            "quantite":"4",
+            "note":"5"
+        },
+
+        "Outriders": {
+            "nom":"Outriders",
+            "img":"../images/outriders.png",
+            "prix":"60",
+            "quantite":"8",
+            "note":"2"
+        },
+
+        "Skyrim": {
+            "nom":"Skyrim",
+            "img":"../images/skyrim.png",
+            "prix":"40",
+            "quantite":"5",
+            "note":"5"
+        },
+
+        "Cyberpunk": {
+            "nom":"Cyberpunk 2077",
+            "img":"../images/cyberpunk.jpg",
+            "prix":"60",
+            "quantite":"4",
+            "note":"3"
+        },
+
+        "worldofwarcraft":{
+            "nom":"World of Warcraft",
+            "img":"../images/legion.jpg",
+            "prix":"60",
+            "quantite":"5",
+            "note":"5"
+        }
+    },
+
+    "RTS":{
+
+        "Starcraft": {
+            "nom":"Starcraft II",
+            "img":"../images/starcraft.jpg",
+            "prix":"20",
+            "quantite":"3",
+            "note":"4"
+        },
+
+        "Warcraft": {
+            "nom":"Warcraft III Reforged",
+            "img":"../images/warcraftreforged.jpg",
+            "prix":"40",
+            "quantite":"7",
+            "note":"2"
+        },
+
+        "dawnofwar": {
+            "nom":"Dawn of War II",
+            "img":"../images/dawnofwar.jpg",
+            "prix":"20",
+            "quantite":"8",
+            "note":"5"
+        },
+
+        "TotalWar": {
+            "nom":"Total War: Warhammer",
+            "img":"../images/totalwar.jpg",
+            "prix":"50",
+            "quantite":"2",
+            "note":"4"
+        },
+
+        "ageofempire2":{
+            "nom":"Age of Empire 2",
+            "img":"../images/aoe2.jpg",
+            "prix":"60",
+            "quantite":"2",
+            "note":"5"
+        }
+    },
+
+    "Sports":{
+        
+        "F1": {
+            "nom":"F1 2020",
+            "img":"../images/f1.jpg",
+            "prix":"50",
+            "quantite":"2",
+            "note":"4"
+        },
+
+        "Footballmanager": {
+            "nom":"Football Manager 2021",
+            "img":"../images/footballm.jpg",
+            "prix":"41",
+            "quantite":"4",
+            "note":"5"
+        },
+
+        "nba": {
+            "nom":"NBA 2K21",
+            "img":"../images/2K21.jpg",
+            "prix":"60",
+            "quantite":"7",
+            "note":"2"
+        },
+
+        "golfit": {
+            "nom":"Golf it",
+            "img":"../images/golfit.jpg",
+            "prix":"9",
+            "quantite":"4",
+            "note":"5"
+        },
+
+        "fifa21":{
+            "nom":"Fifa 21",
+            "img":"../images/fifa.jpg",
+            "prix":"60",
+            "quantite":"50",
+            "note":"3"
+        }
+    },
+
+    "Xbox":{
+        "xboxseries":{
+            "nom":"Xbox Serie S",
+            "img":"../images/xbox.png",
+            "prix":"499",
+            "quantite":"10",
+            "note":"4"
+        }
+    },
+
+    "Playstation":{
+        "playstation4":{
+            "nom":"Playsation 4",
+            "img":"../images/ps4.jpg",
+            "prix":"399",
+            "quantite":"15",
+            "note":"5"
+        }
+    },
+
+    "Switch":{
+        "nintendoswitch":{
+            "nom":"Nintendo Switch",
+            "img":"../images/switch.jpg",
+            "prix":"299",
+            "quantite":"20",
+            "note":"5"
+        }
+    },
+
+    "PC":{
+        "aurorar9alienware":{
+            "nom":"Aurora R9 AlienWare",
+            "img":"../images/pc.jpg",
+            "prix":"2400",
+            "quantite":"2",
+            "note":"5"
+        }
+    },
+
+    "T-shirts":{
+        "backtothepast":{
+            "nom":"Back to the past",
+            "img":"../images/tshirt.jpg",
+            "prix":"25",
+            "quantite":"20",
+            "note":"3"
+        }
+    },
+
+
+    "Goodies":{
+        "verregameboy":{
+            "nom":"Verre GameBoy",
+            "img":"../images/goodies.jpg",
+            "prix":"15",
+            "quantite":"30",
+            "note":"4"
+        }
+    },
+
+    "Hoodies":{
+        "pullvirtuspro":{
+            "nom":"Pull Virtus-Pro",
+            "img":"../images/pull.jpg",
+            "prix":"45",
+            "quantite":"10",
+            "note":"4"
+        }
+    },
+
+    "Chapeaux":{
+        "bonneminecraft":{
+            "nom":"Bonnet Minecraft",
+            "img":"../images/bonnets.jpg",
+            "prix":"20",
+            "quantite":"13",
+            "note":"5"
+        }
+    },
+
+    "Accueil":{
+        "battlefield": {
+            "nom":"Battlefield 1",
+            "img":"../images/bf1.jpg",
+            "prix":"60",
+            "quantite":"7",
+            "note":"4"
+        },
+
+        "titanfall": {
+            "nom":"Titanfall",
+            "img":"../images/titanfall.jpg",
+            "prix":"50",
+            "quantite":"10",
+            "note":"3"
+        },
+
+        "worldofwarcraft":{
+            "nom":"World of Warcraft",
+            "img":"../images/legion.jpg",
+            "prix":"60",
+            "quantite":"5",
+            "note":"5"
+        },
+
+        "ageofempire2":{
+            "nom":"Age of Empire 2",
+            "img":"../images/aoe2.jpg",
+            "prix":"60",
+            "quantite":"2",
+            "note":"5"
+        },
+
+        "fifa21":{
+            "nom":"Fifa 21",
+            "img":"../images/fifa.jpg",
+            "prix":"60",
+            "quantite":"50",
+            "note":"3"
+        }
+    }
+
+}

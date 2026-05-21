@@ -1,0 +1,717 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Andale Mono, monospace;
+}
+
+
+.html{
+  display:block;
+}
+
+.header{
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #101010 ;
+  position: fixed;
+    top: 0;
+    z-index: 30;
+}
+
+.inner_header{
+  width: 95%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo_container{
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container img{
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.logo_container h1{
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.logo_container a{
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 32px;
+  font-weight: 200;
+  z-index: 2000;
+}
+
+.logo_container h1 span{
+  font-weight: 800;
+}
+
+.navigation{
+ float: right;
+ height: 100%;
+}
+
+.navigation a{
+ height: 100%;
+ display: table;
+ float: left;
+ padding: 0px 20px;
+ }
+
+.navigation a:last-child{
+  padding-right: 0;
+}
+
+.navigation a li{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: rgb(247, 107, 26);
+  font-size: 16px;
+}
+
+.footer{
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding: 10px 0;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  background-color: #101010;
+} 
+
+.inner_footer{
+  display: block;
+  margin: 0 auto;
+  width: 1100px;
+  height: 100%;
+
+}
+
+.inner_footer .logo_container{
+  width: 35%;
+  float: left;
+  height: 100%;
+  display: block;
+} 
+
+.inner_footer .logo_container h1{
+  width: 60%;
+  height: auto;
+  padding-left: 100px;
+  padding-top: 40px;
+  } 
+
+  .inner_footer .footer_third{
+  width: calc(21% - 20 px);
+  margin-right: 50px;
+  float: left;
+  height: 100%;
+  } 
+
+  .inner_footer .footer_third:last-child{
+  margin-right: 0;
+  } 
+
+  .inner_footer .footer_third h1{
+  font-size: 22px;
+  color: white;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  } 
+
+  .inner_footer .footer_third a{
+  font-size: 18px;
+  color: rgb(247, 107, 26);
+  display: block;
+  font-weight: 200;
+  width: 100%;
+  padding-bottom: 5px;
+  } 
+
+  .positionfooter{
+    height: 140px;
+    position:static;
+    bottom: 0;
+    margin-top:20px;
+  }
+
+  .positionfooterbis{
+    height: 140px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-top:20px;
+  }
+
+  .positionfooterlogin .footer{
+    position: absolute;
+    bottom: 0;
+    height: 140px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 10px 0;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    background-color: #101010;
+  }
+
+  #Blocmenu{
+  margin-top: 120px;
+  margin-bottom: 200px;
+  }
+
+  nav{
+      width: 100%;
+      background-color:rgb(0, 168, 247);
+      position: fixed;
+      top: 70;
+      z-index: 30;
+  }
+
+  nav > ul{
+    margin:0px;
+    padding: 0px;
+  }
+
+  nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  nav > ul > li{
+    float:left;
+    position: relative;
+  }
+
+  nav li{
+    list-style-type: none;
+  }
+
+  .submenu{
+    display: none;
+  }
+
+  nav a{
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  nav a:hover{
+    
+  background-color: rgb(0, 150, 219);
+    color: black;
+  }
+
+  nav ul > li > a{
+    padding: 20px 30px;
+    color:white;
+  }
+
+  nav > ul > li:hover a {
+    padding: 15px 30px 20px 30px;
+  }
+
+  nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top:100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+    background-color: rgb(1, 129, 189);
+    color: black;
+  }
+
+  .submenu li{
+    border-bottom: 1px solid rgb(49, 179, 255);
+  }
+
+  .submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color:rgb(0, 0, 0);
+    width: 270px;
+  }
+
+  .navbarJeu:hover{
+    border-top: 5px solid rgb(247, 107, 26);
+  }
+
+  .navbarConsole:hover{
+    border-top: 5px solid rgb(247, 107, 26);
+  }
+
+  .navbarProduit:hover{
+    border-top: 5px solid rgb(247, 107, 26);
+  }
+
+  .navbarJeu .submenu{
+    background-color: rgb(114, 155, 31);
+  }
+
+  .navbarConsole .submenu{
+    background-color: rgb(114, 155, 31);
+  }
+
+  .navbarProduit .submenu{
+    background-color: rgb(114, 155, 31);
+  }
+
+  .navigation .connect{
+    color:chartreuse;
+  }
+
+  .navigation .disconnect{
+    color:red;
+  }
+
+
+  .column img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    padding-bottom: 150px;
+    margin-left: 250px;
+
+
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:70%;
+    height:70%
+  }
+  
+  .column img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    opacity: 0.5;
+    width:75%;
+    height:72%;
+    position: relative;
+  }
+
+  .column {
+    float: left;
+    width: 30%;
+    padding: 50px;
+  }
+
+  .row .column a{
+    margin:0;
+    padding: 0;
+  }
+
+  .container img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    padding-bottom: 150px;
+    margin-left: 250px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .container img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    opacity: 0.5;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  .positiontitre{
+    margin-left: 300px;
+    margin-top: 175px;
+    margin-bottom: 0px;
+    color: rgb(247, 107, 26);
+    border-left: thick solid rgb(247, 144, 84);
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 300px;
+  }
+
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .button:hover{
+    background-color: #3b883e;
+  }
+
+  .posButton{
+    margin-left: 247px;
+    margin-right: 0px;
+    margin-top: 30px;
+    position: absolute;
+    z-index: 0;
+  }
+
+  .posTitle{
+    margin-top: -150px;
+    margin-left: 270px;
+    position: absolute;
+    font-size: 30px;
+    z-index: 3;
+    color: rgba(17, 14, 14, 0.712) ;
+  }
+
+  hr{
+    width: 85%;
+    margin-left: 10%;
+  }
+
+  .checked {
+    color: orange;
+    size: 50%;
+  }
+
+  .tailleEtoiles{
+    font-size: 16px;
+
+  }
+
+  .Price{
+    margin-top: -70px;
+    margin-left: 260px;
+    font-size: 30px;
+    z-index: 3;
+    color: #4CAF50;
+    display : flex;
+    justify-content: space-between;
+    width: 70%;
+    position: relative;
+  }
+
+  #pageaccueil{
+    background-image: url('../images/wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  #pagepanier{
+    margin-top: 150px;
+  }
+
+
+  .loginbox{
+    width: 320px;
+    height: 440px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:-50px;
+    left: calc(50% - 50px);
+
+  }
+
+  .loginbox h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+
+  .loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .loginbox input[type="text"], input[type="password"]{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size:16px;
+  }
+
+  .loginbox input[type="submit"]{
+    border:none;
+    outline: none;
+    height: 38px;
+    background: rgb(247, 107, 26);
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+
+  .loginbox input[type="submit"]:hover{
+    cursor:pointer;
+    background: rgb(212, 93, 24);
+    color: #000;
+  }
+
+  .loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+  }
+
+  .loginbox a:hover{
+    color: rgb(212, 93, 24);
+  }
+
+
+
+
+.achat .positiontitre{
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  color: rgb(247, 107, 26);
+  border-left: thick solid rgb(247, 144, 84);
+  padding-left: 3px;
+}
+
+.listepanier{
+  margin-left: 300px;
+  margin-top:20px;
+}
+
+
+.payer .button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.payer .button:hover {
+  background-color: #3b883e;
+}
+
+.payer .posButton{
+  margin-left: 300px;
+  margin-top: 150px;
+  position: absolute;
+  z-index: 0;
+}
+
+.balance{
+  margin-left: 300px;
+  margin-top: 220px;
+  position: absolute;
+  z-index: 0;
+}
+
+.balance h1{
+  border-left: thick solid rgb(247, 144, 84);
+  font-size: 18px;
+  padding-left: 3px;
+}
+
+#cacher {
+  height: 50px;
+  border: 4px solid #f76b1a;
+  padding-right: 5px;
+  padding-left: 5px;
+  background: #01cbf5;
+  color: white;
+  margin-left: 600px;
+}
+
+#gestion {
+  height: 50px;
+  border: 4px solid #f76b1a;
+  padding-right: 5px;
+  padding-left: 5px;
+  background: #01cbf5;
+  color: white;
+}
+
+.blocCommande {
+  display: flex;
+}
+
+.commande {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.affichageStock{
+  font-size: 28px;
+  color:black;
+}
+
+.columnresize img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  padding-bottom: 150px;
+  margin-left: 250px;
+
+
+  margin-bottom: 20px;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width:70%;
+  height:50%
+}
+
+.columnresize img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  opacity: 0.5;
+  width:75%;
+  height:52%;
+  position: relative;
+}
+
+.columnresize  {
+  float: left;
+  width: 35%;
+  padding: 50px;
+}
+
+.row .columnresize a{
+  margin:0;
+  padding: 0;
+}
+
+#cacher:hover{
+  opacity:0.5;
+}
+
+#gestion:hover{
+  opacity:0.5;
+}
+
+#contact{
+  margin-top:150px;
+}
+
+#verif{
+  margin-top: 150px;
+}
+
+.poubelle, .symbole{
+  width: 40px;
+  margin-left: 50px;
+}
+
+img {
+	cursor: pointer;
+}
+
+.panierArticle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.columnresize .button{
+  padding:15px 46px 15px 46px;
+}
+
+#messageInscription{
+  margin-top:350px;
+  text-align: center;
+}
+
+#erreurInscription, #erreurConnexion{
+  margin-top:160px;
+  text-align: center;
+}
+
+#afficherErreur{
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  width: max-content;
+  margin: auto;
+  padding:5px;
+}
+
+#searchbar{
+  position: fixed;
+  margin-top:18px;
+  margin-left:30%;
+}
+
+.formulaire{
+  display:flex;
+}
+
+#blocRecherche {
+	width: 100%;
+}
+
+#search {
+	padding: 2px 4px;
+	width: 500px;
+	height: 35px;
+	border: 1px solid #ccc;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+#search:hover, #search:focus {
+	border-color: #777;
+}
+
+#RechercherStat {
+	display: flex;
+	width: 35px;
+	margin-left: 10px;
+}

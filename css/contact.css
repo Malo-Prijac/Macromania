@@ -1,0 +1,29 @@
+body{
+	margin: auto;
+	text-align: center;
+	background-color: #00BFFF;
+	font-family: "Comic Sans MS";
+}
+
+.CentrerBloc
+{
+	display: block;
+	float: center;
+}
+
+.Bouton {
+	border:none;
+	width: 12%;
+	height: 5%;
+	padding:10px 0 10px 0;
+	border-radius:75%;
+	border-bottom:7px solid #4753f3;
+	font:bold 13px Arial;
+	color:#555;
+	background:#fff;
+	box-shadow:2px 2px 3px #999;
+	border-top:2px solid #59cd27;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor:pointer;
+}
